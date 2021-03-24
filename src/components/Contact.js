@@ -3,6 +3,12 @@
 const Contact = () => {
     return (
         <div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div id="contactTitle" class="posting-heading text-center">
                 <h3 class="display-4 font-weight-bold">Contact</h3>
             </div>

@@ -3,10 +3,10 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 // Import components
-import { Project, Contact } from './components/Pages';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -17,7 +17,6 @@ class App extends Component {
         <br />
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
-        <Route path='/project' component={Project} />
         <Route path='/contact' component={Contact} />
       </div>
     );
