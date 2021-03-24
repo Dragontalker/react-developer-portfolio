@@ -1,6 +1,8 @@
 const Navbar = () => {
     return (
-        <div></div>
+        <nav>
+            <h1>The Dojo Blog</h1>
+        </nav>
     )
 };
 
