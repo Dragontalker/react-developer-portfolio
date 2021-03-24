@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
 // Import components
-import { Project, Home, Contact } from './components/Pages';
+import { Project, Contact } from './components/Pages';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
