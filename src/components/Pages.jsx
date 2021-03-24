@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 export class Home extends Component {
     render() {
         return (
-            <h1>Home Component</h1>
+            <div>
+                <h1>Home Component</h1>
+                <button type="submit" className="btn btn-dark">Submit</button>
+            </div>
         )
     }
 };

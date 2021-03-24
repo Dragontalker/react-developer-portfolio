@@ -3,12 +3,14 @@ import { Route } from 'react-router-dom';
 
 // Import components
 import { Project, Home, Contact } from './components/Pages';
+import Navbar from './components/Navbar';
 
 class App extends Component {
   render() {
     //JSX
     return (
       <div>
+        <Navbar />
         <Route exact path='/' component={Home} />
         <Route path='/project' component={Project} />
         <Route path='/contact' component={Contact} />
