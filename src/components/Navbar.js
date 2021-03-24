@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../react-redux-log.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -11,16 +11,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#homeTitle">Home</a>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutTitle">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolioTitle">Portfolio</a>
+                        <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contactTitle">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                     </ul>
                 </div>
