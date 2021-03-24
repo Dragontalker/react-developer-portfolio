@@ -10,18 +10,18 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
-                    <li className="nav-item">
-                        <Link to="/home">Home</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link to="/contact">Contact</Link>
-                    </li>
+                        <li className="nav-item">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
