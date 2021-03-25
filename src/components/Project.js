@@ -1,6 +1,6 @@
 const Project = (prop) => {
     return (
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
             <div class="card">
                 <img 
                     src={prop.img} 
