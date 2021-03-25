@@ -20,7 +20,13 @@ const Portfolio = () => {
                         deployment={"https://dragontalker-eat-da-burger.herokuapp.com/"}
                         repo={"https://github.com/Dragontalker/FullStack_BurgerHandler"}
                     />
-                    
+                    <Project 
+                        img={p2Image}
+                        title={"Flux-IM ChatRoom"}
+                        description={"A full-stack web application that allows user start conversion with anybody they are interested."}
+                        deployment={"https://flux-im.herokuapp.com/"}
+                        repo={"https://github.com/Dragontalker/Project2_fluxIM"}
+                    />
                 </div>
             </div>
         </div>
