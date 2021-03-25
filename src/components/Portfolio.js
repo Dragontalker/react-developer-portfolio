@@ -1,6 +1,7 @@
 import Project from './Project';
 import p1Image from '../Assets/Image/burger_screenshot.png';
 import p2Image from '../Assets/Image/flux_im.png';
+import p3Image from '../Assets/Image/note_taker.png';
 
 const Portfolio = () => {
     return (
@@ -26,6 +27,13 @@ const Portfolio = () => {
                         description={"A full-stack web application that allows user start conversion with anybody they are interested."}
                         deployment={"https://flux-im.herokuapp.com/"}
                         repo={"https://github.com/Dragontalker/Project2_fluxIM"}
+                    />
+                    <Project 
+                        img={p3Image}
+                        title={"Note Taker"}
+                        description={"A light weight web application that allows user to write down quick notes and track them with ease."}
+                        deployment={"https://dragontalker-note-taker.herokuapp.com/"}
+                        repo={"https://github.com/Dragontalker/BackEnd_NoteTaker"}
                     />
                 </div>
             </div>
