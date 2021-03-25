@@ -7,9 +7,6 @@ const About = () => {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
                 <h3 class="display-4 font-weight-bold">About Me</h3>
             </div>
             <div id="about" class="container mt-5 pb-5">

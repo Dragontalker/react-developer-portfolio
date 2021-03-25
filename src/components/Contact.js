@@ -6,9 +6,6 @@ const Contact = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
             <div id="contactTitle" className="posting-heading text-center">
                 <h3 className="display-4 font-weight-bold">Contact</h3>
             </div>
