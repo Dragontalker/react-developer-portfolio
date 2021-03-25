@@ -27,7 +27,7 @@ const About = () => {
                             <a href="https://www.linkedin.com/in/richard-yang-tong/">VISIT MY LINKEDIN</a>
                         </button>
                         <button class="btn">
-                            <a href="https://docs.google.com/document/d/1bivUNMiKC5n6QTECtL79NJP1dwJnwrKONIhal_Go0Bo/edit">SEE MY RESUME</a>
+                            <a href="https://docs.google.com/document/d/172MHlXEIeXijrEXjlA4M_-OV4Es8vsq0tPKOkXW4oAQ/edit?usp=sharing">SEE MY RESUME</a>
                         </button>
                     </div>
                 </div>
