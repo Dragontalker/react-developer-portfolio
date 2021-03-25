@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Route path='/about' component={About} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/contact' component={Contact} />
+        <Footer />
       </div>
     );
   }

@@ -125,3 +125,12 @@ nav ul li:hover {
 #portfolio .button:hover{
     border: 2px solid #1ebba3;
 }
+
+footer {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    height: 55px;
+    bottom: 0;
+    width: 100%;
+}
